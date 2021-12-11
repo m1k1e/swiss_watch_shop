@@ -31,3 +31,15 @@ body {
   a {
     color: inherit;
   }
+
+  a:hover {
+    text-decoration: underline;
+    opacity: 0.75;
+  }
+
+  .main-header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
